@@ -26,7 +26,7 @@ const Gallery = () => {
     };
 
     return (
-        <Layout className='p-6'
+        <Layout className=''
             minWidth={100}
             items={items.map((item, index) => (
                 <div key={index}>
